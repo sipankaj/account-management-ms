@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: account-management-ms
+
+logging:
+  level:
+    root: INFO
+    com.sipankaj.billingaccount: DEBUG
+
+server:
+  port: 8080
+
+
+app:
+  config:
+    name-prefix: local-
